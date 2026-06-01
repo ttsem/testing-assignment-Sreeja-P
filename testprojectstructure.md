@@ -18,7 +18,7 @@ CalculatorApp.sln
 
 ├── CalculatorApp.Tests/
 │   │
-│   ├── CalculatorApp/
+│   ├── Unit/
 │   │   ├── CalculatorTests.cs
 │   │   ├── CalculatorServiceTests.cs
 │   │   └── XmlHistoryRepositoryTests.cs
@@ -28,10 +28,14 @@ CalculatorApp.sln
 │   │
 │   ├── TestData/
 │   │   ├── sample-history.xml
+│   │   ├── max-entries.xml
+│   │   └── corrupt.xml
 │   │
-│   ├── Utilities/
+│   ├── Helpers/
 │   │   ├── TestFileHelper.cs
 │   │   └── TestDataFactory.cs
-|   |
+│   │
+│   ├── TestDoubles/ (optional)
+│   │   └── MockFactory.cs
+│   │
 │   └── CalculatorApp.Tests.csproj
-│
